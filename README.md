@@ -26,5 +26,4 @@ The tool reads from whatever platforms the team already uses. Typical marketing 
 2. Meta Ads API (Facebook/Instagram) — spend, reach, CTR, CPM
 3. Google Analytics 4 — sessions, source/medium, goal completions
 4. Email platform (e.g. Klaviyo, Mailchimp, HubSpot) — opens, clicks, sends
-
-![Alternative Text]("C:\Users\vigee\OneDrive\Pictures\Screenshots\Screenshot 2026-05-26 191701.png")   
+  
