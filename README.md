@@ -17,4 +17,6 @@ Requirements of team members include:
 1. Provide quick answers / insights when the client asks
 2. Identify major risk even before it becomes a major problem
 
+What It Needs to Work 
+
 
