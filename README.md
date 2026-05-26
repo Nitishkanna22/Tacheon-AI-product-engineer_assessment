@@ -28,3 +28,6 @@ The tool reads from whatever platforms the team already uses. Typical marketing 
 4. Email platform (e.g. Klaviyo, Mailchimp, HubSpot) — opens, clicks, sends
 
 ![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment/blob/e1525a45db5c8b2c5bd103255694140378a590c7/Screenshot%202026-05-26%20191701.png)  
+
+* A single dataset per brand per day: aggregated, not raw event-level
+  
