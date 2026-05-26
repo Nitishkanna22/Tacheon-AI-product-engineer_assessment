@@ -7,4 +7,10 @@ Date: May 26, 2026
 
 Primary User: The Internal Analyst / Account Manager
 
-The primary users are not the clients but the technical staffs. Incorporating a client based model in V1 would lead to second layer design in the model that distracts from the core problem.
+The primary users are not the clients but the technical staffs. Incorporating a client based model in V1 would lead to second layer design in the model that distracts from the core problem. 
+
+Requirements of team members include:
+1. Provide quick answers / insights when the client asks
+2. Identify major risk even before it becomes a major problem
+
+
