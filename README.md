@@ -22,7 +22,7 @@ What It Needs to Work
 Data Sources
 The tool reads from whatever platforms the team already uses. Typical marketing tech stack connections:
 
-1.Google Ads API — spend, ROAS, conversions, impressions
-2.Meta Ads API (Facebook/Instagram) — spend, reach, CTR, CPM
-3.Google Analytics 4 — sessions, source/medium, goal completions
-4.Email platform (e.g. Klaviyo, Mailchimp, HubSpot) — opens, clicks, sends
+ 1.Google Ads API — spend, ROAS, conversions, impressions
+ 2.Meta Ads API (Facebook/Instagram) — spend, reach, CTR, CPM
+ 3.Google Analytics 4 — sessions, source/medium, goal completions
+ 4.Email platform (e.g. Klaviyo, Mailchimp, HubSpot) — opens, clicks, sends
