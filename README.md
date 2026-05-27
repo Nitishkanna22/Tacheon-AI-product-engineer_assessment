@@ -29,5 +29,11 @@ The tool reads from whatever platforms the team already uses. Typical marketing 
 
 ![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment/blob/205efb97cc2083b056a3f6089a74c4d1fa9df515/VeloxBoard%20Flow%20Diagram.png)  
 
-* A single dataset per brand per day: aggregated, not raw event-level
+How Veloxboard works:
+
+1. VeloxBoard automatically pulls data from the four platforms the team already uses — Google Ads, Meta Ads, GA4, and the email platform.
+2. API Health Check
+Before any data is written, the pipeline checks whether each API responded successfully.
+If YES: Data moves to transformation
+If NO: source is marked stale and flagged in the UI 
   
