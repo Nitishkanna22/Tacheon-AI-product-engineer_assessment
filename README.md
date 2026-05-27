@@ -39,7 +39,7 @@ The tool reads from whatever platforms the team already uses. Typical marketing 
 
 ![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment/blob/205efb97cc2083b056a3f6089a74c4d1fa9df515/VeloxBoard%20Flow%20Diagram.png)  
 
-How Veloxboard works:
+Data Flow Explained
 
 1. VeloxBoard automatically pulls data from the four platforms the team already uses — Google Ads, Meta Ads, GA4, and the email platform.
 2. API Health Check
@@ -61,8 +61,19 @@ When an analyst open VeloxBoard, clicks into client brand and would see,
 * Which channel needs attention and why
 * When the data was last refreshed and which sources contributed
 
+## How reliant is VeloxBoard
    
-  
+VeloxBoard is only useful if the team trusts what it shows. Three things make that possible:
+
+**Timestamps on everything.** Every view shows exactly when the data was last refreshed — 
+"Last refreshed: 08:47 today" — so users always know how current the numbers are.
+
+**Source attribution.** Every snapshot lists which platforms contributed to it. Users can see 
+at a glance whether Google Ads, Meta, GA4, and Email all synced successfully.
+
+**Honest failure states.** If an API call fails, the source is marked as stale and shown 
+clearly in the UI. VeloxBoard never hides a data gap behind a zero. If something is missing, 
+you will know.
 
 
   
