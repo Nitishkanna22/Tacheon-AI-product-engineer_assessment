@@ -52,7 +52,15 @@ Before any data is written, the pipeline checks whether each API responded succe
 Two tables are written:
 * Brand Day Snapshot:  one aggregated row per brand per day
 * Signal Log: one signal record per brand per run
-6. The UI assembles the channel snapshot and focus signals into a single branded view. 
+6. The UI assembles the channel snapshot and focus signals into a single branded view.
+
+## How should a good working model be like ?
+
+When an analyst open VeloxBoard, clicks into client brand and would see,
+* How each marketing channel performed over the last 7 days compared to the prior 7 days
+* Which channel needs attention and why
+* When the data was last refreshed and which sources contributed
+
    
   
 
