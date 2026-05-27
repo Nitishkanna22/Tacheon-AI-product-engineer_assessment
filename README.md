@@ -36,13 +36,14 @@ How Veloxboard works:
 Before any data is written, the pipeline checks whether each API responded successfully.
 * If YES: Data moves to transformation
 * If NO: source is marked stale and flagged in the UI
-  
 3. Raw API responses are flattened, normalised, and enriched with derived fields — 7-day totals, period-over-period deltas, and channel-level KPIs.
 4. Rule-based logic scans the transformed data and generates signals — flagging anomalies
 5. Storage
 Two tables are written:
 * Brand Day Snapshot:  one aggregated row per brand per day
 * Signal Log: one signal record per brand per run
+6. The UI assembles the channel snapshot and focus signals into a single branded view. 
+   
   
 
 
