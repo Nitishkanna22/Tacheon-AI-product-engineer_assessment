@@ -22,10 +22,10 @@ What It Needs to Work
 Data Sources
 The tool reads from whatever platforms the team already uses. Typical marketing tech stack connections:
 
-1. Google Ads API — spend, ROAS, conversions, impressions
+1. Google Ads API — conversions, impressions
 2. Meta Ads API (Facebook/Instagram) — spend, reach, CTR, CPM
 3. Google Analytics 4 — sessions, source/medium, goal completions
-4. Email platform (e.g. Klaviyo, Mailchimp, HubSpot) — opens, clicks, sends
+4. Email platform  — opens, clicks, sends
 
 ![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment/blob/205efb97cc2083b056a3f6089a74c4d1fa9df515/VeloxBoard%20Flow%20Diagram.png)  
 
