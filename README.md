@@ -27,7 +27,7 @@ The tool reads from whatever platforms the team already uses. Typical marketing 
 3. Google Analytics 4 — sessions, source/medium, goal completions
 4. Email platform (e.g. Klaviyo, Mailchimp, HubSpot) — opens, clicks, sends
 
-![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment/blob/25817d002f229bb0a65c07742e9e958bebd18268/Veloxboard%20Data%20Flow%20Diagram.png)  
+![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment/blob/205efb97cc2083b056a3f6089a74c4d1fa9df515/VeloxBoard%20Flow%20Diagram.png)  
 
 * A single dataset per brand per day: aggregated, not raw event-level
   
