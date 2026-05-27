@@ -27,7 +27,7 @@ Requirements of team members include:
 1. Provide quick answers / insights when the client asks
 2. Identify major risk even before it becomes a major problem
 
-What It Needs to Work 
+## How VeloxBoard works
 
 Data Sources
 The tool reads from whatever platforms the team already uses. Typical marketing tech stack connections:
