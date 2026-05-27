@@ -9,6 +9,16 @@ What is VeloxBoard ?
 
 Veloxboard is an internal briefing surface. With main purpose being to auto-generate summary for each client brand that answers the standard question in a consistent format.
 
+## The Problem Being Solved
+
+Today, when someone asks "how is our marketing performing across channels right now, and where 
+should we focus?" — the answer requires one person to manually log into multiple tools, pull 
+numbers, and stitch together a response. It takes too long, looks different every time depending 
+on who does it, and if that person is busy, the question just goes unanswered.
+
+VeloxBoard fixes this by making the answer automatic, consistent, and available to anyone on 
+the team in under 60 seconds — without changing how the team currently works.
+
 Primary User: The Internal Analyst / Account Manager
 
 The primary users are not the clients but the technical staffs. Incorporating a client based model in V1 would lead to second layer design in the model that distracts from the core problem. 
