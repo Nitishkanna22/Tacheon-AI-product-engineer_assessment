@@ -39,7 +39,7 @@ The tool reads from whatever platforms the team already uses. Typical marketing 
 
 ![image_alt](https://github.com/Nitishkanna22/Tacheon-AI-product-engineer_assessment/blob/205efb97cc2083b056a3f6089a74c4d1fa9df515/VeloxBoard%20Flow%20Diagram.png)  
 
-Data Flow Explained
+**Data Flow Explained**
 
 1. VeloxBoard automatically pulls data from the four platforms the team already uses — Google Ads, Meta Ads, GA4, and the email platform.
 2. API Health Check
@@ -75,5 +75,27 @@ at a glance whether Google Ads, Meta, GA4, and Email all synced successfully.
 clearly in the UI. VeloxBoard never hides a data gap behind a zero. If something is missing, 
 you will know.
 
+## Architecture Decisions
+
+**Why nightly and not real-time?**
+"Right now" in a marketing context means the last 7 days, not the last 5 minutes. Nightly fetches 
+are sufficient, simpler to operate, and significantly cheaper. Real-time pipelines add complexity 
+with no meaningful gain for this use case.
+
+**Why aggregated and not raw event-level data?**
+VeloxBoard answers one fixed question. Raw event data would enable more queries but massively 
+increases storage costs and maintenance overhead. One aggregated row per brand per day is all this 
+tool needs. Deeper analysis can always be done in the source platform directly.
+
+**Why rule-based signals and not AI?**
+Rules are auditable and immediately trustworthy. A signal that says "CTR has fallen 3 weeks in a 
+row" is self-explaining. An AI narrative that says "consider reallocating budget" without showing 
+its reasoning will be questioned every time. Rules ship faster too — AI-generated signals are a 
+natural v2 upgrade once the baseline is validated.
+
+**Why internal-first and not client-facing?**
+Building for internal analysts and building for clients are two different products. Internal users 
+tolerate rough edges; clients need white-labelling, access controls, and a polished trust model. 
+Solving for internal use first lets the team validate signal quality before exposing anything externally.
 
   
